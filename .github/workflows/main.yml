@@ -5,10 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to test check-html-links-action
     steps:
+    - uses: actions/checkout@v2
     - name: check-html-links-action step
       id: check-links
       uses: jlengrand/check-html-links-action@v02
       with:
         doc-folder: 'test-site'
-    - name: Get the output 
-      run: echo "${{ steps.check-links.outputs.result }}"
