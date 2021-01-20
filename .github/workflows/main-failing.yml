@@ -1,13 +1,13 @@
 on: [push]
 
 jobs:
-  check_html_links_job:
+  check_html_links_failing_job:
     runs-on: ubuntu-latest
-    name: A job to test check-html-links-action
+    name: A job to test check-html-links-action that should fail
     steps:
     - uses: actions/checkout@v2
     - name: check-html-links-action step
       id: check-links
       uses: jlengrand/check-html-links-action@v02
       with:
-        doc-folder: 'test-site'
+        doc-folder: 'test-site-failing'
