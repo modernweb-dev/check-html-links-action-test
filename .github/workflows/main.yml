@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: check-html-links-action step
       id: hello
-      uses: actions/check-html-links-action@v0
+      uses: jlengrand/check-html-links-action@v0
       with:
         who-to-greet: 'Mona the Octocat'
     # Use the output from the `hello` step
