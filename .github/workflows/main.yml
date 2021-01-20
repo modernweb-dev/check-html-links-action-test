@@ -8,6 +8,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: check-html-links-action step
       id: check-links
-      uses: jlengrand/check-html-links-action@v02
+      uses: modernweb-dev/check-html-links-action@v1
       with:
         doc-folder: 'test-site'

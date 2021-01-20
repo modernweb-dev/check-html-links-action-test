@@ -1,7 +1,7 @@
 # Check HTML Links Github Action test repository
 
-This is the test repository of **[check-html-links-action](https://github.com/jlengrand/check-html-links-action)**.
-Check there for documentation and [here](https://github.com/jlengrand/check-html-links-action-test/actions) for latest status. 
+This is the test repository of **[check-html-links-action](https://github.com/modernweb-dev/check-html-links-action)**.
+Check there for documentation and [here](https://github.com/modernweb-dev/check-html-links-action-test/actions) for latest status. 
 
 **Note: It is NORMAL that one of the workflows is failing. Thats'the point :).**
 
