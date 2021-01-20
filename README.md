@@ -9,5 +9,4 @@ I'm using [ptemplate](https://github.com/nethruster/ptemplate) to generate a sim
 
 # Author
 
-[Julien Lengrand-Lambert](https://twitter.com/jlengrand)
-
+[Modern Web](https://modern-web.dev)
