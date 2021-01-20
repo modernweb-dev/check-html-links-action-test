@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: check-html-links-action step
       id: check-links
-      uses: jlengrand/check-html-links-action@v01
+      uses: jlengrand/check-html-links-action@v02
       with:
         doc-folder: 'test-site'
     - name: Get the output 
